@@ -41,7 +41,7 @@ public class MainController {
 
         try {
 
-            long sleeptime = random.nextLong(2000 + 1);
+            long sleeptime = random.nextLong(1000, 2000 + 1);
             log.warn("Starting sleep for: " + (double)sleeptime/1000d + "s");
 
             // I'm not using here created getBalance function cause BigDecimal
